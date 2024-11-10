@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="icon" href="logo.jpg" type="image/jpg">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="home.css"> 
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="logo.jpg" alt="Travel Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="#footer">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <li><a href="index.html" class="btn">Login</a></li>
+            <li><a href="signup.html" class="btn">Signup</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="hero-slideshow">
+        <div class="slide fade">
+            <img src="dest1.jpg" alt="Destination 1">
+            <div class="slide-caption"></div>
+        </div>
+        <div class="slide fade">
+            <img src="dest2.jpg" alt="Destination 2">
+            <div class="slide-caption"></div>
+        </div>
+        <div class="slide fade">
+            <img src="dest3.jpg" alt="Destination 3">
+            <div class="slide-caption"></div>
+        </div>
+    </section>
+    
+    <section class="promo-button-section">
+        <a href="plan-trip.html" class="promo-button">Plan Your Trip with Us and Save Up to Rs. 2500</a>
+    </section>
+    
+
+    <section class="categories-section">
+        <h2>Explore Travel Themes</h2>
+        <div class="categories-container">
+            <a href="adventure.html" class="category-card">
+                <img src="adventure.jpg" alt="Adventure Travel" >
+                <h3>Adventure Travel</h3>
+                <p>Thrilling adventures and unforgettable experiences.</p>
+            </a>
+    
+            <a href="culture.html" class="category-card">
+                <img src="cultujpg.jpeg" alt="Cultural Tours">
+                <h3>Cultural Tours</h3>
+                <p>Explore diverse cultures and rich traditions.</p>
+            </a>
+    
+            <a href="relaxing.html" class="category-card">
+                <img src="relax.jpg" alt="Relaxing Getaways">
+                <h3>Relaxing Getaways</h3>
+                <p>Enjoy peace and relaxation in serene locations.</p>
+        </a>
+    
+            <a href="nature.html" class="category-card">
+                <img src="nature.jpg" alt="Nature Escapes">
+                <h3>Nature Escapes</h3>
+                <p>Immerse yourself in the beauty of the natural world.</p>
+            </a>
+        </div>
+    </section>
+    
+
+    <section class="popular-destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destinations-container">
+            <a href="paris.html" class="destination-card">
+                <img src="paris.jpg" alt="Paris">
+                <h3>Paris, France</h3>
+                <p>The city of lights and love.</p>
+            </a>
+    
+            <a href="bali.html" class="destination-card">
+                <img src="bali.jpg" alt="Bali">
+                <h3>Bali, Indonesia</h3>
+                <p>Paradise of beaches and temples.</p>
+            </a>
+    
+            <a href="tokyo.html" class="destination-card">
+                <img src="tokyo.jpg" alt="Tokyo">
+                <h3>Tokyo, Japan</h3>
+                <p>A perfect blend of tradition and technology.</p>
+            </a>
+    
+            <a href="newyork.html" class="destination-card">
+                <img src="newyork.jpg" alt="New York">
+                <h3>New York, USA</h3>
+                <p>The city that never sleeps.</p>
+            </a>
+        </div>
+    </section>
+    <section class="travel-tips">
+        <h2>Travel Tips & Guides</h2>
+        <p>Get ready for your adventures with our articles and tips on travel safety, packing lists, cultural etiquette, and local cuisine.</p>
+        <div class="travel-tips-image">
+            <img src="travel-tips.jpg" alt="Travel Tips" style="width: 100%; height: auto;">
+            <a href="travel-tips.html" class="tips-button">Learn More</a>
+        </div>
+    </section>      
+
+<section class="video-content">
+    <h2>Explore Our Travel Videos</h2>
+    <p>Watch our short videos showcasing stunning destinations and travel experiences!</p>
+    <div class="video-gallery">
+        <div class="video-item">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Discover the beauty of Bali!</p>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Explore the culture of Italy!</p>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="video3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Explore the vibrant culture of India!</p>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="video4.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Relaxing beaches of the Caribbean!</p>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="video5.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Memorable moments from our travelers!</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="promotions-deals">
+    <div class="promo-banner">
+        <h2>Exclusive Promotions & Last-Minute Deals!</h2>
+        <p>Book your dream getaway today and enjoy exclusive discounts and deals. Don't miss out on these limited-time offers!</p>
+        <button onclick="window.location.href='promotions.html'">View Deals</button>
+    </div>
+</section>
+
+<button class="faq-button" onclick="openFAQModal()">
+    <i class="fas fa-question-circle"></i>   FAQ</button>
+
+<div class="faq-modal" id="faqModal">
+    <div class="faq-modal-content">
+        <span class="close" onclick="closeFAQModal()">&times;</span>
+        <h2>Frequently Asked Questions</h2>
+
+        <label for="faqSelect">Select a question:</label>
+        <select id="faqSelect" onchange="showAnswer(this.value)">
+            <option value="">-- Select a Question --</option>
+            <option value="1">What is the best time to travel?</option>
+            <option value="2">How do I book a trip?</option>
+            <option value="3">What should I pack for my trip?</option>
+            <option value="4">Are there any last-minute deals available?</option>
+            <option value="5">What travel insurance do you recommend?</option>
+            <option value="6">Can I change my travel dates after booking?</option>
+            <option value="7">What if I need to cancel my trip?</option>
+            <option value="8">Are there group discounts available?</option>
+            <option value="9">What health precautions should I take while traveling?</option>
+            <option value="10">How do I contact customer support?</option>
+            <option value="11">Can I bring food on my trip?</option>
+            <option value="12">What if I lose my passport while traveling?</option>
+        </select>
+
+        <div class="answer-box" id="answerBox" style="display: none;"></div>
+
+    </div>
+</div>
+
+<section class="sustainability-initiatives">
+    <h2>Our Commitment to Sustainability</h2>
+    <p>We are dedicated to promoting responsible and sustainable travel. Explore eco-friendly destinations, learn about our practices, and find tips for minimizing your travel footprint.</p>
+    <div class="sustainability-info">
+        <div class="sustainability-card">
+            <img src="sustainable1.jpg" alt="Eco-Friendly Destinations">
+            <p>Discover our selection of eco-friendly travel spots.</p>
+        </div>
+        <div class="sustainability-card">
+            <img src="sustainable2.jpg" alt="Sustainable Travel Tips">
+            <p>Practical tips for making your travel more sustainable.</p>
+        </div>
+        <div class="sustainability-card">
+            <img src="sustainable3.jpg" alt="Community Impact">
+            <p>Learn how our initiatives positively impact local communities.</p>
+        </div>
+    </div>
+    <a href="sustainable.html" class="sustainability-button">Learn More About Our Sustainability Efforts</a>
+</section>
+
+
+<section class="promotional-images">
+    <h2>More Services</h2>
+    <div class="promotional-images-container">
+        <a href="weather.html" class="promotional-image">
+            <img src="weather.jpg" alt="Weather Details">
+            <h3>Weather Details</h3>
+        </a>
+
+        <a href="blog.html" class="promotional-image">
+            <img src="blog.jpg" alt="Blog Page">
+            <h3>Post a blog</h3>
+        </a>
+
+        <a href="events.html" class="promotional-image">
+            <img src="events.jpg" alt="Upcoming Events">
+            <h3>Upcoming Events</h3>
+        </a>
+
+    </div>
+</section>
+
+<div class="container">
+    <div class="quiz-container">
+        <h2>Which Destination Suits Your Personality?</h2>
+    
+        <div class="quiz-slide" id="slide1" style="display: block;">
+            <p>1. What's your ideal vacation activity?</p>
+            <label><input type="radio" name="q1" value="adventure" required> Adventure Sports</label><br>
+            <label><input type="radio" name="q1" value="culture"> Exploring Museums</label><br>
+            <label><input type="radio" name="q1" value="relaxing"> Relaxing on the Beach</label>
+        </div>
+    
+        <div class="quiz-slide" id="slide2" style="display: none;" >
+            <p>2. What's your favorite travel companion?</p>
+            <label><input type="radio" name="q2" value="solo" required> Solo</label>
+            <label><input type="radio" name="q2" value="family"> Family</label>
+            <label><input type="radio" name="q2" value="friends"> Friends</label>
+        </div>
+    
+        <div class="quiz-slide" id="slide3" style="display: none;">
+            <p>3. What's your ideal climate?</p>
+            <label><input type="radio" name="q3" value="warm" required> Warm and Sunny</label>
+            <label><input type="radio" name="q3" value="cool"> Cool and Breezy</label>
+        </div>
+    
+            <button id="quiz-prev" disabled onclick="prevSlide()">Previous</button>
+            <button id="quiz-next" onclick="nextSlide()">Next</button>
+        <button id="quiz-submit" style="display: none;" onclick="showQuizResult()">Submit</button>
+   
+    <div id="quiz-result" >
+        <p>Your ideal destination is: <span id="result-text"></span></p>
+    </div>
+    </div>
+
+    <div class="budget-manager">
+        <h2>Budget Manager</h2>
+        <label for="budget-destination">Destination:</label>
+        <input type="text" id="budget-destination" placeholder="Enter destination" required>
+        
+        <label for="budget-amount">Budget ($):</label>
+        <input type="number" id="budget-amount" placeholder="Enter your budget" required>
+        
+        <label for="budget-days">Number of Days:</label>
+        <input type="number" id="budget-days" placeholder="Enter number of days" required>
+
+        <button id="budget-submit" onclick="calculateBudget()">Get Recommendations</button>
+
+        <div id="trip-result" style="display:none;"></div>
+    </div>
+</div> 
+
+<section class="newsletter-signup">
+    <h2>Newsletter Sign-Up</h2>
+    <p>Subscribe to our newsletter for travel tips, exclusive deals, and updates!</p>
+    <form id="signupForm" onsubmit="return handleNewsletterSignup(event);">
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+<div id="confirmationDialog" class="dialog" style="display: none;">
+    <div class="dialog-content">
+        <span class="close-button" onclick="closeDialog()">&times;</span>
+        <p>You are now subscribed! You'll catch all the latest deals and news about our company.</p>
+        <button id="okButton" onclick="closeDialog()">OK</button>
+    </div>
+</div>
+
+
+
+<section class="user-testimonials">
+    <h2>User Experiences With Us</h2>
+    <div class="carousel">
+       
+        <div class="testimonials-track">
+            <div class="testimonial">
+                <p class="review">"An unforgettable experience! The organization and attention to detail were top-notch. Will definitely book with them again!"</p>
+                <p class="user-name">- Sarah L.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"Amazing journey! The itinerary was perfect, and I felt taken care of every step of the way. Highly recommended!"</p>
+                <p class="user-name">- Mark T.</p>
+                <div class="rating">★★★★☆</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"Loved every part of my trip! Great service, fantastic destinations, and a memorable experience overall."</p>
+                <p class="user-name">- Emily R.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"The trip was well-organized, and the destinations were breathtaking. Truly a dream come true!"</p>
+                <p class="user-name">- John D.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"I enjoyed every bit of the trip, especially the local guides. They made the journey memorable!"</p>
+                <p class="user-name">- Amanda K.</p>
+                <div class="rating">★★★★☆</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"Perfect for solo travelers! I felt safe and enjoyed meeting other travelers along the way."</p>
+                <p class="user-name">- Tony P.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"Great value for money! Would recommend this company to anyone looking for quality trips."</p>
+                <p class="user-name">- Linda W.</p>
+                <div class="rating">★★★★☆</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"A seamless experience from booking to returning. Truly satisfied!"</p>
+                <p class="user-name">- David R.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"The best travel experience I have had so far. Everything was perfect."</p>
+                <p class="user-name">- Rita B.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+            <div class="testimonial">
+                <p class="review">"Memories that will last a lifetime. The service and experiences were exceptional."</p>
+                <p class="user-name">- Paul C.</p>
+                <div class="rating">★★★★★</div>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<section class="social-media-integration">
+    <h2>Follow Us on Social Media</h2>
+    <p>Stay connected and share your travel experiences with us!</p>
+    <div class="social-icons">
+        <a href="https://facebook.com/yourprofile" target="_blank" class="social-icon facebook" title="Follow us on Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon twitter" title="Follow us on Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://instagram.com/yourprofile" target="_blank" class="social-icon instagram" title="Follow us on Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon linkedin" title="Follow us on LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://pinterest.com/yourprofile" target="_blank" class="social-icon pinterest" title="Follow us on Pinterest">
+            <i class="fab fa-pinterest"></i>
+        </a>
+    </div>
+    
+</section>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>
+                    At Travel India, we connect you with experiences from bustling cities to tranquil mountains.
+                    Every destination holds a story waiting to be discovered.
+                </p>
+            </div>
+
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: choudharykashish387@gmail.com</p>
+                <p>Phone: +91-6283060746</p>
+                <p>Location: Punjab, India</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Travel | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

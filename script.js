@@ -150,9 +150,9 @@
         resultDiv.style.display = "block";
         resultDiv.innerHTML = `
             <h3>Trip to ${destination}</h3>
-            <p>Total Budget: $${budgetAmount.toFixed(2)}</p>
+            <p>Total Budget: $Rs.{budgetAmount.toFixed(2)}</p>
             <p>Number of Days: ${days}</p>
-            <p>Daily Budget: $${dailyBudget.toFixed(2)}</p>
+            <p>Daily Budget: $Rs.{dailyBudget.toFixed(2)}</p>
             <p><strong>Recommendation:</strong> ${recommendation}</p>
         `;
     }
